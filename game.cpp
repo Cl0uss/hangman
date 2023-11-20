@@ -25,12 +25,6 @@ cout<<"      |\n";
 cout<<"      |\n"; 
 cout<<"      |\n"; 
 cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"  ____|____\n";
 break;
 }//case 0
 case 1:
@@ -43,12 +37,6 @@ cout<<"      |      O\n";
 cout<<"      |\n";
 cout<<"      |\n";
 cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"  ____|____\n";
 break;
 }//case 1
 case 2:
@@ -61,12 +49,6 @@ cout<<"      |      O\n";
 cout<<"      |      |\n";
 cout<<"      |\n";
 cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"  ____|____\n";
 break;
 }//case 2
 case 3:
@@ -79,12 +61,6 @@ cout<<"      |      O\n";
 cout<<"      |      |\\\n";
 cout<<"      |\n";
 cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"  ____|____\n";
 break;
 }//case 3
 case 4:
@@ -97,12 +73,6 @@ cout<<"      |      O\n";
 cout<<"      |     /|\\\n";
 cout<<"      |\n";
 cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"  ____|____\n";
 break;
 }//case 4
 case 5:
@@ -115,12 +85,6 @@ cout<<"      |      O\n";
 cout<<"      |     /|\\\n";
 cout<<"      |      |\n";
 cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"  ____|____\n";
 break;
 }//case 5
 case 6:
@@ -133,12 +97,6 @@ cout<<"      |      O\n";
 cout<<"      |     /|\\\n";
 cout<<"      |      |\n";
 cout<<"      |     /\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"      |\n";
-cout<<"  ____|____\n";
 break;
 }//case 6
 case 7:
@@ -162,6 +120,12 @@ return;
 break;
 }//case 7 (loose)
 }//switch
+cout<<"      |\n";
+cout<<"      |\n";
+cout<<"      |\n";
+cout<<"      |\n";
+cout<<"      |\n";
+cout<<"  ____|____\n";
 cout<<"\n"<<alphabet<<endl<<progress<<endl;
 cout<<"\nWrite a letter: ";
 char letter;
