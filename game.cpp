@@ -13,14 +13,14 @@ if (guessed==5)
 cout<<"You won!\n";
 return;
 }//if condition
-switch (wrong)
-{
-case 0:
-{
 cout<<"       ______\n";
 cout<<"      |      |\n";
 cout<<"      |      |\n";
 cout<<"      |      |\n";
+switch (wrong)
+{
+case 0:
+{
 cout<<"      |\n";
 cout<<"      |\n"; 
 cout<<"      |\n"; 
@@ -29,10 +29,6 @@ break;
 }//case 0
 case 1:
 {
-cout<<"       ______\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
 cout<<"      |      O\n";
 cout<<"      |\n";
 cout<<"      |\n";
@@ -41,10 +37,6 @@ break;
 }//case 1
 case 2:
 {
-cout<<"       ______\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
 cout<<"      |      O\n";
 cout<<"      |      |\n";
 cout<<"      |\n";
@@ -53,10 +45,6 @@ break;
 }//case 2
 case 3:
 {
-cout<<"       ______\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
 cout<<"      |      O\n";
 cout<<"      |      |\\\n";
 cout<<"      |\n";
@@ -65,10 +53,6 @@ break;
 }//case 3
 case 4:
 {
-cout<<"       ______\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
 cout<<"      |      O\n";
 cout<<"      |     /|\\\n";
 cout<<"      |\n";
@@ -77,10 +61,6 @@ break;
 }//case 4
 case 5:
 {
-cout<<"       ______\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
 cout<<"      |      O\n";
 cout<<"      |     /|\\\n";
 cout<<"      |      |\n";
@@ -89,10 +69,6 @@ break;
 }//case 5
 case 6:
 {
-cout<<"       ______\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
 cout<<"      |      O\n";
 cout<<"      |     /|\\\n";
 cout<<"      |      |\n";
@@ -101,10 +77,6 @@ break;
 }//case 6
 case 7:
 {
-cout<<"       ______\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
-cout<<"      |      |\n";
 cout<<"      |      X\n";
 cout<<"      |     /|\\\n";
 cout<<"      |      |\n";
